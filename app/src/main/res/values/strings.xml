@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">New High Tech SS Lab</string>
-    <string name="site_url">https://newhightechsskajjansi.prophp.org/pages/lab/lab_login.php</string>
-    <string name="splash_tagline">Built by Kn Soft</string>
-    <string name="no_internet_title">No internet connection</string>
-    <string name="no_internet_message">Please check your connection and try again.</string>
-    <string name="retry">Retry</string>
-</resources>
