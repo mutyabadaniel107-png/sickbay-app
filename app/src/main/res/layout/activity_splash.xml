@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash_logo" />
+
+    <!--
+        Tagline styled like handwriting/signature text.
+        Ships with the built-in "cursive" font family so it works out of the box.
+        To use the real "Nativine" font instead:
+          1. Add your licensed nativine.ttf file to app/src/main/res/font/
+          2. Change android:fontFamily below to "@font/nativine"
+    -->
+    <TextView
+        android:id="@+id/splashTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/splash_tagline"
+        android:textColor="@color/brand_navy"
+        android:textSize="26sp"
+        android:fontFamily="cursive"
+        android:textStyle="italic" />
+
+</LinearLayout>
